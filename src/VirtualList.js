@@ -72,11 +72,11 @@ const VirtualList = (options, mapVirtualToProps = defaultMapToVirtualProps) => (
       this.setStateIfNeeded(this.domNode, this.options.container, items, itemHeight, itemBuffer);
     };
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
       this._isMounted = true;
     }
 
-    componentDidMount() {
+    UNSAFE_componentDidMount() {
       // cache the DOM node
       this.domNode = ReactDOM.findDOMNode(this);
 
@@ -88,7 +88,7 @@ const VirtualList = (options, mapVirtualToProps = defaultMapToVirtualProps) => (
       this.options.container.addEventListener('resize', this.refreshState);
     };
 
-    componentWillUnmount() {
+    UNSAFE_componentWillUnmount() {
       this._isMounted = false;
 
       // remove events
@@ -97,7 +97,7 @@ const VirtualList = (options, mapVirtualToProps = defaultMapToVirtualProps) => (
     };
 
     // if props change, just assume we have to recalculate
-    componentWillReceiveProps(nextProps) {
+    UNSAFE_componentWillReceiveProps(nextProps) {
       const { itemHeight, items, itemBuffer } = nextProps;
 
       this.setStateIfNeeded(this.domNode, this.options.container, items, itemHeight, itemBuffer);

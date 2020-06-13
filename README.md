@@ -1,9 +1,9 @@
-# [react-virtual-list](http://developerdizzle.github.io/react-virtual-list/) [![Build Status](https://travis-ci.org/developerdizzle/react-virtual-list.svg?branch=master)](https://travis-ci.org/developerdizzle/react-virtual-list) [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/react.svg)](https://bundlephobia.com/result?p=react-virtual-list)
+# [react-virtual-list](http://clertonraf.github.io/react-virtual-list/) [![Build Status](https://travis-ci.org/clertonraf/react-virtual-list.svg?branch=master)](https://travis-ci.org/clertonraf/react-virtual-list) [![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/react.svg)](https://bundlephobia.com/result?p=react-virtual-list)
 
 
 Super simple virtualized list [higher-order component](https://facebook.github.io/react/docs/higher-order-components.html) for [React](https://github.com/facebook/react) version `^15.0.0 || ^16.0.0`.
 
-[Check out the demo here](http://developerdizzle.github.io/react-virtual-list)
+[Check out the demo here](http://clertonraf.github.io/react-virtual-list)
 
 `react-virtual-list` allows you to display a large list of fixed-height items, while only rendering the items visible on the screen.  This allows a large list to be rendered with much fewer DOM elements.
 
@@ -112,7 +112,7 @@ The default `mapVirtualToProps` can be found [here](/src/utils/defaultMapVirtual
 
 #### Example Usage
 
-Check out [demo/src/app.js](demo/src/app.js) and [demo/src/ConfigurableExample.js](demo/src/ConfigurableExample.js) for the example used in the [demo](http://developerdizzle.github.io/react-virtual-list).
+Check out [demo/src/app.js](demo/src/app.js) and [demo/src/ConfigurableExample.js](demo/src/ConfigurableExample.js) for the example used in the [demo](http://clertonraf.github.io/react-virtual-list).
 
 ## Tests
 

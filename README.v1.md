@@ -47,7 +47,7 @@ Any other properties set on `VirtualList`, such as `className`, will be reflecte
 
 #### Example Usage
 
-Check out [https://github.com/developerdizzle/react-virtual-list/blob/gh-pages/App.jsx](https://github.com/developerdizzle/react-virtual-list/blob/gh-pages/App.jsx) for the example used in the demo.
+Check out [https://github.com/developerdizzle/react-virtual-list/blob/gh-pages/App.jsx](https://github.com/clertonraf/react-virtual-list/blob/gh-pages/App.jsx) for the example used in the demo.
 
 ## Tests
 
@@ -56,4 +56,4 @@ Use `npm test` to run the tests using [jasmine-node](https://github.com/mhevery/
 ## To Do
 
 * ES6/2015
-* [Known issue with mobile scroll event](https://github.com/developerdizzle/react-virtual-list/issues/1)
+* [Known issue with mobile scroll event](https://github.com/clertonraf/react-virtual-list/issues/1)
